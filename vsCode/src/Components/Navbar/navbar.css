@@ -1,0 +1,146 @@
+.navbar {
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: black;
+
+}
+
+a {
+    color: #9BA3B4;
+    font-weight: 600;
+}
+
+a:hover {
+    color: white;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+
+    color: #E9EAEB;
+}
+
+.logo img {
+    width: 30px;
+    aspect-ratio: 1;
+    background-color: black;
+
+}
+
+.logo p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.option {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+
+.search {
+    border: 0.5px solid #383838;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 12px 5px 3px;
+}
+
+.search input {
+    outline: none;
+    border: none;
+    background-color: black;
+    max-width: 200px;
+}
+
+.search-icon {
+    font-size: larger;
+    color: #9BA3B4;
+}
+
+.download-btn {
+    border: none;
+    padding: 8px 16px;
+    background-color: #0069B9;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    color: white;
+    border-radius: 5px;
+
+}
+
+.sunIcon {
+    color: #5B5F66;
+    font-size: 25px;
+}
+
+.hide {
+    display: none;
+    width: 30px;
+    height: 30px;
+}
+
+@media (max-width:950px) {
+    .option {
+        display: none;
+
+    }
+
+    .nav-right {
+        display: none;
+    }
+
+    .option.open {
+        display: block;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .nav-left {
+        flex-direction: column;
+    }
+
+    .nav-right.open {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 10px;
+
+    }
+
+
+
+
+
+    .hide {
+        display: block;
+        right: 0%;
+    }
+}

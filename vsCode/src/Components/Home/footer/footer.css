@@ -1,0 +1,36 @@
+.foot {
+    color: #8AA3B4;
+    margin: 100px 0px;
+}
+
+.foot-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 20px;
+}
+
+.foot-top-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-top-left img {
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+}
+
+.foot-bottom {
+    display: flex;
+    font-size: 12px;
+    font-weight: 600;
+    gap: 15px;
+}
+
+.foot-top-left .x {
+    width: 23px;
+    height: 23px;
+}

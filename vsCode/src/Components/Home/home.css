@@ -1,0 +1,17 @@
+.features {
+    margin: 0px 150px 0px 150px;
+}
+
+@media (max-width:1350px) {
+    .features {
+        padding: 50px;
+        margin: 0px;
+    }
+}
+
+@media (max-width:990px) {
+    .features {
+        padding: 15px;
+        margin: 0px;
+    }
+}
